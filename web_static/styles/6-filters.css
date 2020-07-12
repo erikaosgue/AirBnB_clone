@@ -87,7 +87,7 @@ h4 {
     margin-top: 15.3px;
     /* move the text inside of the box */
     padding-top: 20px;
-    /* display: none; */
+    display: none;
 
 }
 .locations:hover .popover, .amenities:hover .popover{

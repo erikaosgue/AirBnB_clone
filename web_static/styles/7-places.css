@@ -1,23 +1,32 @@
 
+
+section.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* The title Places */
 section.places h1 {
     margin: 0;
     font-size: 30px;
     padding-top: 40px;
     padding-left: 15px;
+    /* help with the title Places to be alone on the top */
+    flex-basis: 100%;
 }
-section.places article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-section.places article h2 {
+/* the 3 places boxes*/
+.places article {
     width: 390px;
     padding: 20px;
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
+} 
+/* title of each box (place name) */
+.places article h2 {
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    margin-top: 0;
 }
 
